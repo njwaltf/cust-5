@@ -87,4 +87,12 @@ class BookingController extends Controller
     {
         //
     }
+
+    public function bookReturn($id)
+    {
+        Booking::where('id', $id)->update([
+            'status' => 'Dikembalikan'
+        ]);
+        return redirect('/dashboard/bookings')->with('successReturn', 'Buku berhasil dikembalikan!');
+    }
 }

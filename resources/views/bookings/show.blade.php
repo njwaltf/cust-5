@@ -3,7 +3,7 @@
     <!--  Row 1 -->
     <div class="row">
         <div class="col-lg-12 my-3">
-            <h2><a href="/dashboard/books"><i class="ti ti-arrow-left"></i></a> Detail Peminjaman</h2>
+            <h2><a href="/dashboard/bookings"><i class="ti ti-arrow-left"></i></a> Detail Peminjaman</h2>
         </div>
     </div>
     <div class="row">

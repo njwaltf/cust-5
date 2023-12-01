@@ -37,3 +37,4 @@ Route::get('/dashboard/profile', [ProfileController::class, 'index'])->name('use
 Route::get('/dashboard/profile/edit', [ProfileController::class, 'edit'])->name('user-profile-edit');
 Route::post('/dashboard/profile/update', [ProfileController::class, 'update'])->name('user-profile-update');
 
+Route::post('/dashboard/returned/{id}', [BookingController::class, 'bookReturn'])->name('book-return');

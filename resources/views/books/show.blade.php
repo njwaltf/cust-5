@@ -89,7 +89,7 @@
                                     @csrf
                                     <input type="hidden" value="{{ $book->id }}" name="book_id">
                                     <input type="hidden" value="{{ auth()->user()->id }}" name="user_id">
-                                    <input type="hidden" value="{{ 'Menunggu' }}" name="status">
+                                    <input type="hidden" value="{{ 'Dipinjam' }}" name="status">
                                     <input type="hidden" value="{{ 0 }}" name="isDenda">
                                     <input type="hidden" value="{{ $book->stock }}" name="stock">
                                     <button class="btn btn-primary" type="submit">Pinjam</button>
